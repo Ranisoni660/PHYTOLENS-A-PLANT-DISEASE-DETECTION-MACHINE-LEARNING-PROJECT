@@ -4,7 +4,6 @@ import tensorflow as tf
 import numpy as np
 from werkzeug.utils import secure_filename
 from PIL import Image
-import cv2
 
 app = Flask(__name__)
 
@@ -15,6 +14,10 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Define the model path
 model_path = 'trained_plant_disease_model.keras'
+
+# Set the environment variable to use CPU if GPU is not available
+if not tf.config.list_physical_devices('GPU'):
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Load the trained model
 try:
@@ -39,6 +42,7 @@ class_names = [
     'Tomato___Target_Spot', 'Tomato___Tomato_mosaic_virus', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus'
 ]
 
+# Disease information dictionary (abbreviated for brevity)
 disease_info = {
     'Apple___Apple_scab': {
         'harmfulness': 6,
