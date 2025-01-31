@@ -27,6 +27,29 @@ Backend: Flask (Python)
 Machine Learning Model: TensorFlow/Keras
 
 Dataset: Trained on labeled plant disease datasets
+
+# Lets have a tour of the website 
 ![Screenshot 2025-01-31 at 11-20-44 Phytolens - Test Leaf](https://github.com/user-attachments/assets/2612420b-eb56-471e-bce7-526c6f086a68)
+
+--- **The main front page**
+![Screenshot_31-1-2025_111617_127 0 0 1](https://github.com/user-attachments/assets/a3eecd99-1004-4e26-bb2f-1d6ee69e8f60)
+![Screenshot 2025-01-31 at 11-19-52 Plant Disease Prediction](https://github.com/user-attachments/assets/a6c3745b-bba5-43a1-b5ce-a63afd334659)
+on clicking Let's detect it moves to the testing page.
+![Screenshot 2025-01-31 at 11-21-23 Phytolens - Test Leaf](https://github.com/user-attachments/assets/466babdb-9ff4-4c8f-b289-72eaf288f291)
+
+a prediction report is created based on the particular disease
+![Screenshot 2025-01-31 at 11-21-35 Phytolens - Test Leaf](https://github.com/user-attachments/assets/a7b64ae3-419d-43a5-91ee-73325c89906b)
+
+--- **About Us section**
+![Screenshot 2025-01-31 at 11-30-38 About Us PhytoLens](https://github.com/user-attachments/assets/5cb2cabc-b4d3-48a2-a2e5-4c849b08e8a8)
+![Screenshot 2025-01-31 at 11-30-21 About Us PhytoLens](https://github.com/user-attachments/assets/948917af-771c-4538-84b4-2b8a9976151f)
+
+--- **Project Details Section**
+![Screenshot 2025-01-31 at 11-31-04 Project Details - PhytoLens](https://github.com/user-attachments/assets/e75110e6-6082-4e7b-9085-32ae8fd018e9)
+![Screenshot 2025-01-31 at 12-17-49 Project Details - PhytoLens](https://github.com/user-attachments/assets/86081e24-c4e8-4372-8ad0-380d1c692ec7)
+
+
+
+
 
 
