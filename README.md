@@ -96,18 +96,34 @@ a prediction report is created based on the particular disease
 # Project Directory Structure
 
 D:\FINAL_PLANT_DIESEASE\Final
+
 │── static
+
 │   ├── css
+
 │   ├── js
+
 │── templates
+
 │   ├── index.html
+
 │   ├── project.html
+
 │   ├── motivate.html
+
 │   ├── test.html
+
 │   ├── timeline.html
+
 │   ├── Aboutus.html
+
+
 │── venv (virtual environment)
+
+
 │── trained_plant_disease_model.keras
+
+
 │── app.py (Main application file)
 
 # Installation & Setup
