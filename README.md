@@ -93,7 +93,92 @@ a prediction report is created based on the particular disease
 
 ![Screenshot 2025-01-31 at 11-20-30 Phytolens - Test Leaf](https://github.com/user-attachments/assets/223c8741-a2ed-4e59-90a5-5d21b4edddf6)
 
+# Project Directory Structure
+
+D:\FINAL_PLANT_DIESEASE\Final
+│── static
+│   ├── css
+│   ├── js
+│── templates
+│   ├── index.html
+│   ├── project.html
+│   ├── motivate.html
+│   ├── test.html
+│   ├── timeline.html
+│   ├── Aboutus.html
+│── venv (virtual environment)
+│── trained_plant_disease_model.keras
+│── app.py (Main application file)
+
+# Installation & Setup
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+Python (>=3.8)
+
+Flask
+
+TensorFlow/Keras
+
+OpenCV (for image processing)
+
+Git (for version control)
 
 
+# Steps
+
+### Clone the repository:
+
+git clone https://github.com/your-github-repo/Phytolens.git
+
+### Navigate to the project folder:
+
+cd Phytolens
+
+### Create and activate a virtual environment:
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+### Install dependencies:
+
+pip install -r requirements.txt
+
+### Run the application:
+
+python app.py
+
+Access the web app at:   https://phytolens-a-plant-disease-detection-mlp.onrender.com/
+
+# Usage
+
+Upload a clear image of the affected plant leaf.
+
+Click Predict to analyze the image.
+
+View the disease diagnosis and recommended treatments.
+
+# Future Enhancements
+
+Integration with a mobile application.
+
+Support for multiple plant species.
+
+AI-based treatment recommendations.
+
+Cloud deployment for scalability.
+
+# Contributing
+
+Contributions are welcome! Feel free to fork the repository, create issues, and submit pull requests.
+
+# License
+
+This project is licensed under the MIT License.
+
+# For more details, contact Rani Soni or visit the project repository.
+Email id : ranisoni6298@gmail.com
 
 
