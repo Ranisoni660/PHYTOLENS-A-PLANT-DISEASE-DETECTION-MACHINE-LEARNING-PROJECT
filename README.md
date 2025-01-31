@@ -152,6 +152,13 @@ python app.py
 
 Access the web app at:   https://phytolens-a-plant-disease-detection-mlp.onrender.com/
 
+# Responsiveness
+
+
+![Screenshot_31-1-2025_113715_127 0 0 1](https://github.com/user-attachments/assets/b52f9e12-cf74-4e9d-a693-793c98bc0174)
+
+![Screenshot_31-1-2025_113619_127 0 0 1](https://github.com/user-attachments/assets/3cc17805-86d3-46f6-88f8-f281e66e3ccd)
+
 # Usage
 
 Upload a clear image of the affected plant leaf.
